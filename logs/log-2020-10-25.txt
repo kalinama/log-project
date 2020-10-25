@@ -1,0 +1,6 @@
+2020-10-25 11:18:48.694 429  [main] INFO  LoggerToFile - Example log from LoggerToFile
+2020-10-25 11:18:48.701 436  [main] WARN  LoggerToFile - The divisor must be a nonzero number.
+2020-10-25 11:18:48.702 437  [main] DEBUG LoggerToFile - Going to divide 100 by 0
+2020-10-25 11:18:48.704 439  [main] ERROR LoggerToFile - Error dividing 100 by 0 
+java.lang.ArithmeticException: / by zero
+	at LoggerToFile.main(LoggerToFile.java:16)
