@@ -12,7 +12,7 @@
         <module>console</module>
         <module>file</module>
     </modules>
-    
+
     <dependencyManagement>
         <dependencies>
             <dependency>

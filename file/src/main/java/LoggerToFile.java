@@ -8,9 +8,11 @@ public class LoggerToFile {
     public static void main(String[] args) {
         logger.info("Example log from {}", LoggerToFile.class.getSimpleName());
 
-        logger.warn("The divisor must be a nonzero number.");
         Integer dividend = 100;
         Integer divisor = 0;
+
+        logger.warn("The divisor must be a nonzero number.");
+
         try {
             logger.debug("Going to divide {} by {}", dividend, divisor);
             int quotient = dividend/divisor;
